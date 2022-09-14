@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Vector(1).png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b89db0730c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>First Iraqi Bank - Backoffice</title>
+  </head>
+  <body>
+    <div class="back-office">
+      <div class="left">
+        <div class="navbar">
+          <div class="logo">
+            <a href="fib.html">
+              <img src="Photos/FIB_small.png" alt="FIB Logo" />
+            </a>
+          </div>
+          <div class="profile">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/219/219971.png"
+              alt=""
+            />
+            <p>Sarkar Farooq</p>
+            <h6>Applicant Manager,<br />Applicant Viewer</h6>
+          </div>
+          <div class="list">
+            <i class="fa-solid fa-address-book"></i>
+            <span>Applicants List</span>
+            <div class="hoverbar">
+              <a href="index.html"><div>Pending Applicants</div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="header">
+          <div>
+            <p>APPLICANT LIST</p>
+          </div>
+          <div class="select">
+            <select name="Language" id="Language" class="select-menu">
+              <option value="English">English</option>
+              <option value="English">Arabic</option>
+              <option value="English">Kurdish SO</option>
+              <option value="English">Kurdish BA</option>
+            </select>
+            <a href="login.html">LOGOUT</a>
+          </div>
+        </div>
+
+        <div class="main">
+          <div>
+            <p>83dg38-hu742-jsdsgh-uhd9201-ksjd88</p>
+          </div>
+          <div>
+            <a href="">
+              <span>Created At 06/21/2022 8:08:38 AM</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="scan">
+          <div class="passport">
+            <p>passport</p>
+            <img src="Photos/passport.jpg" alt="" />
+          </div>
+          <div class="selfie">
+            <p>selfie</p>
+            <img src="Photos/selfie.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="data">
+          <p>filled information</p>
+
+          <div class="info">
+            <div class="left-info">
+              <label for="">English first name</label><br />
+              <input type="text" class="efn" /><br /><br />
+              <label for="">arabic first name</label><br />
+              <input type="text" class="eln" />
+              <label for="">date of birth</label><br />
+              <input
+                type="date"
+                name="DOB"
+                id=""
+                class="dob"
+                value="2022-09-12"
+                required
+                pattern="\d{4}-\d{2}-\d{2}"
+              />
+              <br />
+              <label for="">gender</label><br />
+              <input type="radio" name="female" id="female" class="radio" />
+              <label for="" class="radio-label">Female</label>
+              <input type="radio" name="female" id="female" class="radio" />
+              <label for="" class="radio-label">male</label><br /><br />
+              <label for="">nationality</label><br />
+              <select name="nationality" id="nationality" class="nationality">
+                <option value="iraq">Iraq</option>
+                <option value="iran">Iran</option>
+                <option value="Afghan">Afghan</option>
+              </select>
+            </div>
+
+            <div class="right-info">
+              <label for="">English last name</label><br />
+              <input type="text" class="efn" /><br /><br />
+              <label for="">arabic last name</label><br />
+              <input type="text" class="eln" />
+              <label for="">reason for review</label><br />
+              <input
+                type="checkbox"
+                name="check"
+                id="check"
+                class="check"
+              /><span for=""
+                >please make sure the Document ID in the Document Image matches
+                the Document ID the user has entered</span
+              ><br />
+              <input
+                type="checkbox"
+                name="check"
+                id="check"
+                class="check"
+              /><span for=""
+                >please check if the selfie matches the photo of the ID
+                Document</span
+              ><br />
+              <input
+                type="checkbox"
+                name="check"
+                id="check"
+                class="check"
+              /><span for=""
+                >please use the checkbox below to decide whether manual document
+                review is needed. If you are 100% sure about the document,
+                manual review can be skepped.</span
+              ><br />
+              <input
+                type="checkbox"
+                name="check"
+                id="check"
+                class="check"
+              /><span for="">please verify the birth date.</span><br />
+              <input
+                type="checkbox"
+                name="check"
+                id="check"
+                class="check"
+              /><span for=""
+                >please check the overall data before sending for manual
+                reveiew.</span
+              ><br />
+              <input
+                type="checkbox"
+                name="check"
+                id="check"
+                class="check"
+              /><span for=""
+                >please verify ID authenticity, only ID cards or passport are
+                allowed</span
+              ><br /><br />
+
+              <label for="">Document ID</label>
+              <input type="text" class="eln" />
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <p>CONTACT INFORMATION</p>
+
+          <div class="contact">
+            <div class="phone">
+              <label for="">Phone Number</label><br />
+              <span>+9647505098990</span>
+            </div>
+
+            <div class="email">
+              <label for="">Email Address</label><br />
+              <span>sarkar@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="btn">
+            <button class="reject">REJECT</button>
+            <button class="approve">APPROVE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
